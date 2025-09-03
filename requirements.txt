@@ -15,3 +15,5 @@ flasgger==0.9.5
 
 # flaskalchemy
 Flask-SQLAlchemy >= 3.0
+
+Werkzeug==2.3.7

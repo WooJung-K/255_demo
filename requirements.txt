@@ -1,0 +1,13 @@
+# adding requirements file (after gitignore -> main.py)
+
+# defining flask version
+flask == 2.0.1
+
+# security constraint
+flask_cors
+
+# restAPI definition
+flask_restful
+
+# swagger file generation
+flasgger

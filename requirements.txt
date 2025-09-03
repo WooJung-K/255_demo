@@ -1,7 +1,7 @@
 # adding requirements file (after gitignore -> main.py)
 
 # defining flask version
-flask == 2.3.3
+flask == 2.2.5
 
 # security constraint
 Flask-Cors==3.0.10

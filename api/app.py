@@ -5,7 +5,11 @@ from flasgger import Swagger
 
 from api.config import env_config
 
+from flask_sqlalchemy import SQLAlchemy
+
 api = Api()
+
+db = SQLAlchemy()
 
 # define function that takes in configuration
 
@@ -19,6 +23,7 @@ def create_app(config_name):
 
     # initialize the application
     api.init_app(app)
+    db.init_app(app)
     # add cors and swagger documentation
     CORS(app)
     Swagger(app)

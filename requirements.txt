@@ -11,3 +11,7 @@ flask_restful
 
 # swagger file generation
 flasgger
+
+
+# flaskalchemy
+Flask-SQLAlchemy >= 3.0
